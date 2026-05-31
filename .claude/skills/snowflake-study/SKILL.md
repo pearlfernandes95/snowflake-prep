@@ -434,7 +434,7 @@ After appending to the session log:
 ```
 git add session_log.md dashboard.html
 git commit -m "Session <date>"
-git push
+git push origin master
 ```
 Confirm to the user: "Progress saved and synced to GitHub ✅"
 
