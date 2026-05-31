@@ -403,7 +403,9 @@ When triggered:
 
 ## Persistent Progress Tracking
 
-After every quiz session ends (user says "end", "stop", "done", or "finish"), append to `session_log.md` in the current working directory:
+After every quiz session ends (user says "end", "stop", "done", or "finish"):
+1. Append to `session_log.md` in the current working directory
+2. Then immediately run these git commands to sync progress:
 
 ```markdown
 ## Session — <date>
@@ -426,7 +428,15 @@ After every quiz session ends (user says "end", "stop", "done", or "finish"), ap
 - Bookmarked for review: [list]
 ```
 
-At session start, read this file if it exists and load ALL state: XP, level, domain mastery per topic, streaks, badges, exam readiness, bookmarks. Use the uncovered topic list to weight question selection toward weak areas.
+After appending to the session log, run these commands:
+```
+git add session_log.md
+git commit -m "Session <date>"
+git push
+```
+Confirm to the user: "Progress saved and synced to GitHub ✅"
+
+At session start, first run `git pull` to get the latest progress, then read `session_log.md` and load ALL state: XP, level, domain mastery per topic, streaks, badges, exam readiness, bookmarks. Use the uncovered topic list to weight question selection toward weak areas.
 
 ---
 
