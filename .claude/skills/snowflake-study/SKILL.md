@@ -428,9 +428,11 @@ After every quiz session ends (user says "end", "stop", "done", or "finish"):
 - Bookmarked for review: [list]
 ```
 
-After appending to the session log, run these commands:
+After appending to the session log:
+1. Regenerate `dashboard.html` in the current working directory with fully updated stats (XP, level, domain coverage bars, per-topic percentages, accuracy, badges, exam date countdown). Match the exact HTML structure and CSS classes of the existing file — update only the data values, not the layout or styles.
+2. Then run these git commands to sync both files:
 ```
-git add session_log.md
+git add session_log.md dashboard.html
 git commit -m "Session <date>"
 git push
 ```
