@@ -436,7 +436,7 @@ git add session_log.md dashboard.html
 git commit -m "Session <date>"
 git push
 ```
-Confirm to the user: "Progress saved and synced to GitHub ✅"
+Confirm to the user: "Progress saved and synced to GitHub ✅ — Dashboard: https://pearlfernandes95.github.io/snowflake-prep/dashboard.html"
 
 At session start, first run `git pull` to get the latest progress, then read `session_log.md` and load ALL state: XP, level, domain mastery per topic, streaks, badges, exam readiness, bookmarks. Use the uncovered topic list to weight question selection toward weak areas.
 
