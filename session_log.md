@@ -46,16 +46,16 @@ Both thresholds must be met to level up. Prevents XP grinding without breadth.
 
 | Stat | Value |
 |---|---|
-| Total XP | **9973** |
-| Level | **11 — Domain Specialist** 🆙 (leveled up during Architecture Drill!) |
-| Next level (12 — Exam Candidate) | Need 75% coverage (have 69.9%) and 10000 XP (have 9973 — only 27 XP away! 👀) |
-| Total questions answered | **760** |
+| Total XP | **11070** |
+| Level | **11 — Domain Specialist** (need 75% coverage for L12 — at 74.2%, ~4 sub-concepts away! 👀) |
+| Next level (12 — Exam Candidate) | Need 75% coverage (have 74.2%) and 10000 XP ✅ (have 11070) |
+| Total questions answered | **815** |
 | All-time best streak | 22 |
-| Predicted exam-ready date | **TARGET REACHED 2026-05-30 ✅ — exam June 8 (on schedule, 2-day buffer)** |
-| Sub-concepts covered | **323 / 462 (69.9%)** |
-| Topics mastered (90%+) | 7 / 46 (3.1 ⭐ · 2.9 ⭐ · 2.8 ⭐ · 2.2 ⭐ · 1.5 Snowflake Editions ⭐ · 1.9 AI/ML Features ⭐ · 1.12 Snowflake Notebooks ⭐) — 5.1 lost mastery (10/12=83%) |
-| Final Boss unlocked | No (requires all domains 80%+ accuracy; Gov at 79.7% — one session away!) |
-| Bookmarked for review | Iceberg tables, CORTEX.COMPLETE(), ACCESS_HISTORY for lineage, ALTER ACCOUNT SET NETWORK_POLICY syntax, SAML SSO vs OAuth distinction, APPROX_COUNT_DISTINCT metadata usage, External Functions / API INTEGRATION distinction, Git repository FETCH + CREATE OR REPLACE flow, **1.7 object hierarchy: Shares + Storage Integrations are ACCOUNT-LEVEL (confused both Q17+Q20)**, **COPY_HISTORY (ACCOUNT_USAGE) vs LOAD_HISTORY (INFO_SCHEMA)**, **3-part notation for querying shared databases**, **CLUSTER BY not CLUSTER ON**, **Directory table: STAGE_NAME yes, ROW_COUNT no** |
+| Predicted exam-ready date | **TARGET REACHED 2026-05-30 ✅ — exam June 8 (on schedule)** |
+| Sub-concepts covered | **343 / 462 (74.2%)** |
+| Topics mastered (90%+) | 14 / 46 (1.1⭐ 1.2⭐ 1.3⭐ 1.5⭐ 1.10⭐ 1.12⭐ 2.1⭐ 2.2⭐ 2.6⭐ 2.8⭐ 2.9⭐ 2.10⭐ 3.1⭐ 5.1⭐) |
+| Final Boss unlocked | No (Performance 67%, Loading 60%, Collab 60% — need all domains 80%+) |
+| Bookmarked for review | Iceberg tables, CORTEX.COMPLETE(), ACCESS_HISTORY for lineage, ALTER ACCOUNT SET NETWORK_POLICY syntax, SAML SSO vs OAuth distinction, APPROX_COUNT_DISTINCT metadata usage, External Functions / API INTEGRATION distinction, Git repository FETCH + CREATE OR REPLACE flow, **1.7 object hierarchy: Shares + Storage Integrations are ACCOUNT-LEVEL**, **COPY_HISTORY (ACCOUNT_USAGE) vs LOAD_HISTORY (INFO_SCHEMA)**, **3-part notation for querying shared databases**, **CLUSTER BY not CLUSTER ON**, **Directory table: STAGE_NAME yes ROW_COUNT no**, **Snowpark: Python/Scala/Java only (NOT R)**, **SYSTEM$ESTIMATE_QUERY_ACCELERATION not CHECK_QAS_ELIGIBILITY**, **Unload formats: CSV/JSON/Parquet only (Avro/ORC load-only)**, **Clone includes stages but NOT granted privileges** |
 
 ### Badge Definitions
 | Badge | Unlock Condition |
@@ -77,12 +77,12 @@ Both thresholds must be met to level up. Prevents XP grinding without breadth.
 
 | Domain | Covered | Total | Mastery % | Topics at 90%+ |
 |---|---|---|---|---|
-| Architecture | 93 | 117 | 79% | 3/12 (1.5 ⭐ 1.9 ⭐ 1.12 ⭐) |
-| Governance | 89 | 108 | 82% | 3/10 (2.2 ⭐ 2.8 ⭐ 2.9 ⭐) |
-| Performance | 42 | 69 | 61% | 1/7 (3.1 ⭐) |
-| Data Loading | 47 | 84 | 56% | 0/8 |
-| Collaboration | 49 | 84 | 58% | 0/9 (5.1 dropped to 83%) |
-| **TOTAL** | **323** | **462** | **69.9%** | **7/46** |
+| Architecture | 103 | 117 | 88% | 6/12 (1.1⭐ 1.2⭐ 1.3⭐ 1.5⭐ 1.10⭐ 1.12⭐) |
+| Governance | 94 | 108 | 87% | 6/10 (2.1⭐ 2.2⭐ 2.6⭐ 2.8⭐ 2.9⭐ 2.10⭐) |
+| Performance | 46 | 69 | 67% | 1/7 (3.1⭐) |
+| Data Loading | 50 | 84 | 60% | 0/8 |
+| Collaboration | 50 | 84 | 60% | 1/9 (5.1⭐) |
+| **TOTAL** | **343** | **462** | **74.2%** | **14/46** |
 
 ### Per-Domain Accuracy (cumulative from S11 onward)
 
@@ -90,12 +90,12 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 
 | Domain | Correct | Total | Accuracy % |
 |---|---|---|---|
-| Architecture | 132 | 154 | 86% |
-| Governance | 149 | 187 | 80% |
-| Performance | 71 | 83 | 86% |
-| Data Loading | 61 | 68 | 90% |
-| Collaboration | 72 | 81 | 89% |
-| **TOTAL** | **485** | **573** | **85%** |
+| Architecture | 146 | 170 | 86% |
+| Governance | 157 | 197 | 80% |
+| Performance | 83 | 96 | 86% |
+| Data Loading | 70 | 80 | 88% |
+| Collaboration | 79 | 89 | 89% |
+| **TOTAL** | **535** | **632** | **85%** |
 
 ### Partial Backfill — S1–S9 Known Wrongs (NOT comparable to S11+ ledger)
 
@@ -116,71 +116,71 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 
 ### Topic Coverage
 
-#### Architecture (93/117)
+#### Architecture (103/117)
 | Topic | Covered | Total | % |
 |---|---|---|---|
-| 1.1 Three-layer architecture | 8 | 10 | 80% |
-| 1.2 Virtual Warehouses | 10 | 12 | 83% |
-| 1.3 Micro-partitions | 8 | 11 | 73% |
-| 1.4 Data Clustering | 5 | 10 | 50% |
-| 1.5 Snowflake editions ⭐ | 11 | 12 | 92% |
-| 1.6 Snowflake interfaces | 6 | 9 | 67% |
-| 1.7 Object hierarchy | 7 | 10 | 70% |
-| 1.8 Table types | 7 | 10 | 70% |
-| 1.9 AI/ML features ⭐ | 8 | 8 | 100% |
-| 1.10 Snowflake Cortex | 7 | 8 | 88% |
-| 1.11 Apache Iceberg tables | 7 | 9 | 78% |
+| 1.1 Three-layer architecture ⭐ | 10 | 10 | 100% |
+| 1.2 Virtual Warehouses ⭐ | 12 | 12 | 100% |
+| 1.3 Micro-partitions ⭐ | 10 | 11 | 91% |
+| 1.4 Data Clustering | 7 | 10 | 70% |
+| 1.5 Snowflake editions ⭐ | 12 | 12 | 100% |
+| 1.6 Snowflake interfaces | 7 | 9 | 78% |
+| 1.7 Object hierarchy | 6 | 10 | 60% |
+| 1.8 Table types | 8 | 10 | 80% |
+| 1.9 AI/ML features | 7 | 8 | 88% |
+| 1.10 Snowflake Cortex ⭐ | 8 | 8 | 100% |
+| 1.11 Apache Iceberg tables | 8 | 9 | 89% |
 | 1.12 Snowflake Notebooks ⭐ | 8 | 8 | 100% |
 
-#### Governance (89/108)
+#### Governance (94/108)
 | Topic | Covered | Total | % |
 |---|---|---|---|
-| 2.1 RBAC system roles | 11 | 13 | 85% |
+| 2.1 RBAC system roles ⭐ | 12 | 13 | 92% |
 | 2.2 Role hierarchy ⭐ | 9 | 9 | 100% |
-| 2.3 Authentication | 9 | 12 | 75% |
-| 2.4 Network policies | 6 | 8 | 75% |
-| 2.5 Dynamic Data Masking & RAP | 11 | 15 | 73% |
-| 2.6 Column/row-level security | 8 | 10 | 80% |
-| 2.7 Encryption & Tri-Secret | 8 | 11 | 73% |
+| 2.3 Authentication | 10 | 12 | 83% |
+| 2.4 Network policies | 5 | 8 | 63% |
+| 2.5 Dynamic Data Masking & RAP | 12 | 15 | 80% |
+| 2.6 Column/row-level security ⭐ | 9 | 10 | 90% |
+| 2.7 Encryption & Tri-Secret | 9 | 11 | 82% |
 | 2.8 Cost management & monitors ⭐ | 11 | 11 | 100% |
 | 2.9 Data lineage ⭐ | 8 | 8 | 100% |
-| 2.10 Privacy policies | 8 | 10 | 80% |
+| 2.10 Privacy policies ⭐ | 9 | 10 | 90% |
 
-#### Performance (42/69)
+#### Performance (46/69)
 | Topic | Covered | Total | % |
 |---|---|---|---|
 | 3.1 Query profile ⭐ | 11 | 11 | 100% |
-| 3.2 Caching | 7 | 12 | 58% |
-| 3.3 Warehouse tuning | 4 | 10 | 40% |
-| 3.4 Clustering depth | 4 | 9 | 44% |
-| 3.5 Search Optimization | 5 | 9 | 56% |
-| 3.6 Materialized views | 5 | 9 | 56% |
-| 3.7 Query Acceleration | 5 | 9 | 56% |
+| 3.2 Caching | 9 | 12 | 75% |
+| 3.3 Warehouse tuning | 5 | 10 | 50% |
+| 3.4 Clustering depth | 5 | 9 | 56% |
+| 3.5 Search Optimization | 6 | 9 | 67% |
+| 3.6 Materialized views | 6 | 9 | 67% |
+| 3.7 Query Acceleration | 4 | 9 | 44% |
 
-#### Data Loading (47/84)
+#### Data Loading (50/84)
 | Topic | Covered | Total | % |
 |---|---|---|---|
-| 4.1 Stages | 6 | 11 | 55% |
-| 4.2 COPY INTO | 8 | 13 | 62% |
-| 4.3 File formats | 5 | 11 | 45% |
-| 4.4 Snowpipe | 7 | 11 | 64% |
-| 4.5 Streams and Tasks | 8 | 12 | 67% |
+| 4.1 Stages | 7 | 11 | 64% |
+| 4.2 COPY INTO | 9 | 13 | 69% |
+| 4.3 File formats | 4 | 11 | 36% |
+| 4.4 Snowpipe | 8 | 11 | 73% |
+| 4.5 Streams and Tasks | 10 | 12 | 83% |
 | 4.6 Connectors | 5 | 8 | 63% |
-| 4.7 GET / PUT commands | 3 | 8 | 38% |
-| 4.8 Unstructured data | 3 | 10 | 30% |
+| 4.7 GET / PUT commands | 4 | 8 | 50% |
+| 4.8 Unstructured data | 4 | 10 | 40% |
 
-#### Collaboration (49/84)
+#### Collaboration (50/84)
 | Topic | Covered | Total | % |
 |---|---|---|---|
-| 5.1 Secure Data Sharing | 10 | 12 | 83% |
+| 5.1 Secure Data Sharing ⭐ | 11 | 12 | 92% |
 | 5.2 Snowflake Marketplace | 6 | 8 | 75% |
-| 5.3 Data Replication | 5 | 10 | 50% |
-| 5.4 Cloning | 5 | 10 | 50% |
-| 5.5 Time Travel | 5 | 11 | 45% |
-| 5.6 Fail-safe | 4 | 8 | 50% |
-| 5.7 Data clean rooms | 4 | 8 | 50% |
+| 5.3 Data Replication | 6 | 10 | 60% |
+| 5.4 Cloning | 4 | 10 | 40% |
+| 5.5 Time Travel | 6 | 11 | 55% |
+| 5.6 Fail-safe | 5 | 8 | 63% |
+| 5.7 Data clean rooms | 5 | 8 | 63% |
 | 5.8 Native apps | 4 | 9 | 44% |
-| 5.9 Public vs private listings | 4 | 8 | 50% |
+| 5.9 Public vs private listings | 5 | 8 | 63% |
 
 ### Covered Sub-Concepts (audit trail)
 - 1.1: Separation of storage and compute
@@ -804,3 +804,40 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 | S7 | 2026-05-17 | Weak Spots 10 | 8/10 (80%) | +189 | |
 | S8 | 2026-05-18 | Rapid 50 | 47/50 (94%) | +1121 | Level up; Century Club badge; all-time streak 22 |
 | S9 | 2026-05-18 | Weak Spots 20 | 18/20 (90%) | +452 | Level up L5; Q15 voided (bad question wording) |
+
+---
+
+## Session — 2026-06-01 (S-Jun01a) — Weak Spots 10
+- Overall: 9/10 correct (90%) *(Q5 credit adjusted — mobile truncation)*
+- XP earned: +185 XP
+- Total XP: 10158 | Level 11: Domain Specialist
+- Overall coverage: ~71.4% (330/462)
+- Exam readiness: 84%
+- Best streak this session: 5
+- All-time best streak: 22
+- Total questions answered: 770
+- Badges earned: none new
+- Domain focus: Performance, Data Loading, Collaboration (weak spots)
+- Wrong: Q5 partial (DATA_RETENTION option truncated on mobile — credited)
+- Notes: Mobile display issue — long option labels get cut off. Keep labels short.
+
+---
+
+## Session — 2026-06-01 (S-Jun01b) — 50-Question Weighted Quiz
+- Overall: 39/45 correct (87%) *(5 questions dismissed/interrupted)*
+- XP earned: +912 XP
+- Total XP: 11070 | Level 11: Domain Specialist (74.2% coverage — need 75% for L12!)
+- Overall coverage: 74.2% (343/462)
+- Exam readiness: 86%
+- Best streak this session: 9
+- All-time best streak: 22
+- Total questions answered: 815
+- Badges earned: none new (14 topics now mastered — up from 7!)
+- Domain mastery:
+  - Arch: 88% (103/117) — covered: 1.1⭐ 1.2⭐ 1.3⭐ 1.5⭐ 1.10⭐ 1.12⭐ | uncovered: 1.7 1.9
+  - Gov: 87% (94/108) — covered: 2.1⭐ 2.2⭐ 2.6⭐ 2.8⭐ 2.9⭐ 2.10⭐ | uncovered: 2.4
+  - Perf: 67% (46/69) — covered: 3.1⭐ | uncovered: 3.7
+  - Load: 60% (50/84) — uncovered: 4.3
+  - Collab: 60% (50/84) — covered: 5.1⭐ | uncovered: 5.4
+- Final Boss unlocked: No (Perf 67%, Load 60%, Collab 60% — need all 80%+)
+- Wrong answers: 1.7 storage integrations, 1.9 Snowpark languages (no R), 2.4 network policy syntax, 3.7 SYSTEM$ESTIMATE_QUERY_ACCELERATION, 4.3 unload formats (CSV/JSON/Parquet only), 5.4 clone contents (stages included, privileges not)
