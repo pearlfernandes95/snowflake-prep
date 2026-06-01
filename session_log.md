@@ -49,7 +49,7 @@ Both thresholds must be met to level up. Prevents XP grinding without breadth.
 | Total XP | **11070** |
 | Level | **11 — Domain Specialist** (need 75% coverage for L12 — at 74.2%, ~4 sub-concepts away! 👀) |
 | Next level (12 — Exam Candidate) | Need 75% coverage (have 74.2%) and 10000 XP ✅ (have 11070) |
-| Total questions answered | **815** |
+| Total questions answered | **820** |
 | All-time best streak | 22 |
 | Predicted exam-ready date | **TARGET REACHED 2026-05-30 ✅ — exam June 8 (on schedule)** |
 | Sub-concepts covered | **343 / 462 (74.2%)** |
@@ -824,14 +824,14 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 ---
 
 ## Session — 2026-06-01 (S-Jun01b) — 50-Question Weighted Quiz
-- Overall: 39/45 correct (87%) *(5 questions dismissed/interrupted)*
+- Overall: 39/45 correct (87%) + 5 dismissed/skipped = 50 questions attempted
 - XP earned: +912 XP
 - Total XP: 11070 | Level 11: Domain Specialist (74.2% coverage — need 75% for L12!)
 - Overall coverage: 74.2% (343/462)
 - Exam readiness: 86%
 - Best streak this session: 9
 - All-time best streak: 22
-- Total questions answered: 815
+- Total questions answered: 820 (815 answered + 5 dismissed counted)
 - Badges earned: none new (14 topics now mastered — up from 7!)
 - Domain mastery:
   - Arch: 88% (103/117) — covered: 1.1⭐ 1.2⭐ 1.3⭐ 1.5⭐ 1.10⭐ 1.12⭐ | uncovered: 1.7 1.9
