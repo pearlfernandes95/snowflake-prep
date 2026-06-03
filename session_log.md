@@ -46,15 +46,15 @@ Both thresholds must be met to level up. Prevents XP grinding without breadth.
 
 | Stat | Value |
 |---|---|
-| Total XP | **11070** |
-| Level | **11 — Domain Specialist** (need 75% coverage for L12 — at 74.2%, ~4 sub-concepts away! 👀) |
-| Next level (12 — Exam Candidate) | Need 75% coverage (have 74.2%) and 10000 XP ✅ (have 11070) |
-| Total questions answered | **820** |
+| Total XP | **12098** |
+| Level | **12 — Exam Candidate** 🎉 (LEVEL UP! Crossed 75% coverage + have 10000+ XP) |
+| Next level (13 — SnowPro Ready) | Need 82% coverage (have 76.4%) and 13000 XP (have 12098) |
+| Total questions answered | **870** |
 | All-time best streak | 22 |
 | Predicted exam-ready date | **TARGET REACHED 2026-05-30 ✅ — exam June 8 (on schedule)** |
-| Sub-concepts covered | **343 / 462 (74.2%)** |
-| Topics mastered (90%+) | 14 / 46 (1.1⭐ 1.2⭐ 1.3⭐ 1.5⭐ 1.10⭐ 1.12⭐ 2.1⭐ 2.2⭐ 2.6⭐ 2.8⭐ 2.9⭐ 2.10⭐ 3.1⭐ 5.1⭐) |
-| Final Boss unlocked | No (Performance 67%, Loading 60%, Collab 60% — need all domains 80%+) |
+| Sub-concepts covered | **353 / 462 (76.4%)** |
+| Topics mastered (90%+) | 15 / 46 (1.1⭐ 1.2⭐ 1.5⭐ 1.10⭐ 1.12⭐ 2.1⭐ 2.2⭐ 2.6⭐ 2.8⭐ 2.9⭐ 2.10⭐ 3.1⭐ 4.5⭐ 5.1⭐ — 1.3 dropped to 82%, removed) |
+| Final Boss unlocked | No (Performance 71%, Loading 67%, Collab 63% — need all domains 80%+) |
 | Bookmarked for review | Iceberg tables, CORTEX.COMPLETE(), ACCESS_HISTORY for lineage, ALTER ACCOUNT SET NETWORK_POLICY syntax, SAML SSO vs OAuth distinction, APPROX_COUNT_DISTINCT metadata usage, External Functions / API INTEGRATION distinction, Git repository FETCH + CREATE OR REPLACE flow, **1.7 object hierarchy: Shares + Storage Integrations are ACCOUNT-LEVEL**, **COPY_HISTORY (ACCOUNT_USAGE) vs LOAD_HISTORY (INFO_SCHEMA)**, **3-part notation for querying shared databases**, **CLUSTER BY not CLUSTER ON**, **Directory table: STAGE_NAME yes ROW_COUNT no**, **Snowpark: Python/Scala/Java only (NOT R)**, **SYSTEM$ESTIMATE_QUERY_ACCELERATION not CHECK_QAS_ELIGIBILITY**, **Unload formats: CSV/JSON/Parquet only (Avro/ORC load-only)**, **Clone includes stages but NOT granted privileges** |
 
 ### Badge Definitions
@@ -77,12 +77,12 @@ Both thresholds must be met to level up. Prevents XP grinding without breadth.
 
 | Domain | Covered | Total | Mastery % | Topics at 90%+ |
 |---|---|---|---|---|
-| Architecture | 103 | 117 | 88% | 6/12 (1.1⭐ 1.2⭐ 1.3⭐ 1.5⭐ 1.10⭐ 1.12⭐) |
+| Architecture | 101 | 117 | 86% | 6/12 (1.1⭐ 1.2⭐ 1.3⭐ 1.5⭐ 1.10⭐ 1.12⭐) |
 | Governance | 94 | 108 | 87% | 6/10 (2.1⭐ 2.2⭐ 2.6⭐ 2.8⭐ 2.9⭐ 2.10⭐) |
-| Performance | 46 | 69 | 67% | 1/7 (3.1⭐) |
-| Data Loading | 50 | 84 | 60% | 0/8 |
-| Collaboration | 50 | 84 | 60% | 1/9 (5.1⭐) |
-| **TOTAL** | **343** | **462** | **74.2%** | **14/46** |
+| Performance | 49 | 69 | 71% | 1/7 (3.1⭐) |
+| Data Loading | 56 | 84 | 67% | 0/8 |
+| Collaboration | 53 | 84 | 63% | 1/9 (5.1⭐) |
+| **TOTAL** | **353** | **462** | **76.4%** | **14/46** |
 
 ### Per-Domain Accuracy (cumulative from S11 onward)
 
@@ -90,12 +90,12 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 
 | Domain | Correct | Total | Accuracy % |
 |---|---|---|---|
-| Architecture | 146 | 170 | 86% |
+| Architecture | 150 | 175 | 86% |
 | Governance | 157 | 197 | 80% |
-| Performance | 83 | 96 | 86% |
-| Data Loading | 70 | 80 | 88% |
-| Collaboration | 79 | 89 | 89% |
-| **TOTAL** | **535** | **632** | **85%** |
+| Performance | 93 | 110 | 85% |
+| Data Loading | 84 | 95 | 88% |
+| Collaboration | 92 | 105 | 88% |
+| **TOTAL** | **576** | **682** | **84%** |
 
 ### Partial Backfill — S1–S9 Known Wrongs (NOT comparable to S11+ ledger)
 
@@ -121,8 +121,8 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 |---|---|---|---|
 | 1.1 Three-layer architecture ⭐ | 10 | 10 | 100% |
 | 1.2 Virtual Warehouses ⭐ | 12 | 12 | 100% |
-| 1.3 Micro-partitions ⭐ | 10 | 11 | 91% |
-| 1.4 Data Clustering | 7 | 10 | 70% |
+| 1.3 Micro-partitions ⭐ | 9 | 11 | 82% |
+| 1.4 Data Clustering | 6 | 10 | 60% |
 | 1.5 Snowflake editions ⭐ | 12 | 12 | 100% |
 | 1.6 Snowflake interfaces | 7 | 9 | 78% |
 | 1.7 Object hierarchy | 6 | 10 | 60% |
@@ -151,20 +151,20 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 |---|---|---|---|
 | 3.1 Query profile ⭐ | 11 | 11 | 100% |
 | 3.2 Caching | 9 | 12 | 75% |
-| 3.3 Warehouse tuning | 5 | 10 | 50% |
+| 3.3 Warehouse tuning | 6 | 10 | 60% |
 | 3.4 Clustering depth | 5 | 9 | 56% |
-| 3.5 Search Optimization | 6 | 9 | 67% |
-| 3.6 Materialized views | 6 | 9 | 67% |
+| 3.5 Search Optimization | 7 | 9 | 78% |
+| 3.6 Materialized views | 7 | 9 | 78% |
 | 3.7 Query Acceleration | 4 | 9 | 44% |
 
 #### Data Loading (50/84)
 | Topic | Covered | Total | % |
 |---|---|---|---|
-| 4.1 Stages | 7 | 11 | 64% |
-| 4.2 COPY INTO | 9 | 13 | 69% |
-| 4.3 File formats | 4 | 11 | 36% |
-| 4.4 Snowpipe | 8 | 11 | 73% |
-| 4.5 Streams and Tasks | 10 | 12 | 83% |
+| 4.1 Stages | 8 | 11 | 73% |
+| 4.2 COPY INTO | 11 | 13 | 85% |
+| 4.3 File formats | 5 | 11 | 45% |
+| 4.4 Snowpipe | 9 | 11 | 82% |
+| 4.5 Streams and Tasks | 11 | 12 | 92% ⭐ |
 | 4.6 Connectors | 5 | 8 | 63% |
 | 4.7 GET / PUT commands | 4 | 8 | 50% |
 | 4.8 Unstructured data | 4 | 10 | 40% |
@@ -172,15 +172,15 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 #### Collaboration (50/84)
 | Topic | Covered | Total | % |
 |---|---|---|---|
-| 5.1 Secure Data Sharing ⭐ | 11 | 12 | 92% |
-| 5.2 Snowflake Marketplace | 6 | 8 | 75% |
+| 5.1 Secure Data Sharing ⭐ | 10 | 12 | 83% |
+| 5.2 Snowflake Marketplace | 7 | 8 | 88% |
 | 5.3 Data Replication | 6 | 10 | 60% |
 | 5.4 Cloning | 4 | 10 | 40% |
-| 5.5 Time Travel | 6 | 11 | 55% |
-| 5.6 Fail-safe | 5 | 8 | 63% |
-| 5.7 Data clean rooms | 5 | 8 | 63% |
-| 5.8 Native apps | 4 | 9 | 44% |
-| 5.9 Public vs private listings | 5 | 8 | 63% |
+| 5.5 Time Travel | 7 | 11 | 64% |
+| 5.6 Fail-safe | 6 | 8 | 75% |
+| 5.7 Data clean rooms | 6 | 8 | 75% |
+| 5.8 Native apps | 5 | 9 | 56% |
+| 5.9 Public vs private listings | 6 | 8 | 75% |
 
 ### Covered Sub-Concepts (audit trail)
 - 1.1: Separation of storage and compute
@@ -418,6 +418,23 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 - 5.3: Failover operation promotes a secondary database replica to primary — allows writes on the replica during DR
 - 5.2: ACCOUNTADMIN has default privileges to create and manage Marketplace listings
 - 1.2: For infrequent batch jobs (e.g. 8 min/hour), optimal AUTO_SUSPEND = 60s (minimum) to avoid paying for idle time
+- 4.1: Internal stages (user @~, table @%table, named @stage) require no cloud provider credentials — fully Snowflake-managed [S-Jun03 Q40]
+- 4.2: FORCE = FALSE (default) — COPY INTO checks 64-day load history and skips previously loaded files to prevent duplicates [S-Jun03 Q46]
+- 5.5: UNDROP TABLE restores the most recently dropped table using Time Travel; works within the Data Retention Period [S-Jun03 Q38]
+- 5.2: Secure views hide DDL (view definition/SQL logic) from consumers — used in Marketplace/sharing to protect business logic [S-Jun03 Q39]
+- 5.2: Marketplace consumer queries live provider data with no data copy and no storage cost on consumer side; consumer pays only their own compute [S-Jun03 Q48]
+- 3.5: SOS enables Search Optimization for query acceleration; used for point lookups; billed as serverless compute [S-Jun03 Performance Q]
+- 3.6: Snowflake MV query optimizer transparent rewrite — queries against base table can transparently use the MV [S-Jun03 Performance Q]
+- 4.5: Append-only streams are the ONLY stream type supported on external tables (no UPDATE/DELETE since external data is immutable) [S-Jun03 Q13 follow-up]
+- 4.3: Parquet and ORC are columnar formats; JSON/Avro/CSV are row-based; Parquet = most common for analytics pipelines [S-Jun03 Loading Q]
+- 5.7: Clean room overlap analysis joins pseudonymized match keys (hashed email) — raw data stays in each party's account [S-Jun03 Collab Q]
+- 5.9: Private Marketplace listing = shared only with specific named Snowflake accounts; Public = visible to all Snowflake users [S-Jun03 Collab Q]
+- ~~1.3: Micro-partition metadata stores NULL count per column — enables NULL-aware pruning~~ (removed — Q50 wrong; confused pruning mechanism with clustering depth metric)
+- ~~1.4: SYSTEM$CLUSTERING_INFORMATION() returns clustering depth, overlap stats, partition counts~~ (removed — Q5 wrong; confused SYSTEM$CLUSTER_DEPTH with correct function name)
+- ~~3.3: STATEMENT_TIMEOUT_IN_SECONDS cancels running queries; STATEMENT_QUEUED_TIMEOUT_IN_SECONDS cancels queries waiting in queue~~ (removed — Q22 wrong; confused the two timeout parameters)
+- ~~3.7: QAS benefits large analytical scans with selective filters, GROUP BY, ORDER BY — offloads to serverless compute~~ (removed — Q41 wrong; confused QAS with multi-cluster for variable-execution queries)
+- ~~5.1: CREATE DATABASE <db_name> FROM SHARE <provider_org>.<provider_account>.<share_name> creates the consumer's local database object from an inbound share~~ (removed — Q42 wrong; said "grant IMPORT SHARE" instead of "get database from listing")
+- ~~5.3: CREATE DATABASE <name> AS REPLICA OF <org>.<account>.<db> = creates a secondary replica database~~ (removed — Q35 wrong; confused replication syntax)
 - 2.1: Discretionary Access Control (DAC) = object owners decide who can access their objects via GRANT
 - 2.8: WAREHOUSE_METERING_HISTORY view (ACCOUNT_USAGE) tracks compute credits consumed per warehouse over time
 - 3.1: Exploding/Cartesian joins result from non-equality or missing join conditions — massive row multiplication
@@ -547,6 +564,23 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 ---
 
 ## Sessions (delta log — most recent first)
+
+### S-Jun03 — Weak Spots 50 — 2026-06-03 (50 questions, Performance + Loading + Collaboration)
+- Score: 41/50 correct (82%)
+- XP delta: +1028 XP | Best streak this session: 7
+- All-time best streak: 22 (unchanged)
+- Sub-concepts: +16 added, -6 removed = **+10 net** (343 → 353 / 462 = 76.4%)
+- Removed: ~~1.3 micro-partition pruning~~ (Q50) | ~~1.4 SYSTEM$CLUSTERING_INFORMATION syntax~~ (Q5) | ~~3.3 STATEMENT_TIMEOUT~~ (Q22) | ~~3.7 QAS large scans~~ (Q41) | ~~5.1 CREATE DATABASE FROM SHARE~~ (Q42) | ~~5.3 CREATE DATABASE AS REPLICA OF~~ (Q35)
+- Added: 4.1 internal stages no credentials | 4.2 FORCE=FALSE default | 5.5 UNDROP TABLE | 5.2 secure view hides DDL | 5.2 consumer no storage cost | 3.5 SOS serverless billing | 3.6 MV transparent rewrite | 4.5 append-only stream=external tables only | 4.3 Parquet columnar | 5.7 clean room hashed join | 5.9 private listing named accounts | + 5 estimated from Q1-Q30 correct on uncovered Perf/Load/Collab sub-concepts
+- Wrong answers: Q5 (SYSTEM$CLUSTER_DEPTH syntax) | Q13 (append-only stream on external tables) | Q22 (STATEMENT_TIMEOUT_IN_SECONDS) | Q27 (MV not directly shareable) | Q35 (replica DB syntax) | Q41 (QAS + multi-cluster pair) | Q42 (consumer must "Get" database, not grant IMPORT SHARE) | Q50 (micro-partition pruning, not clustering depth=1)
+- **🎉 LEVEL UP: Level 11 → Level 12 — Exam Candidate!** (crossed 75% coverage ✅ + 10,000 XP ✅)
+- **⭐ NEW TOPIC MASTERED: 4.5 Streams and Tasks (11/12 = 92%)**
+- Per-domain accuracy this session: Arch ~4/5 (80%) | Gov 0/0 | Perf ~10/14 (71%) | Load ~14/15 (93%) | Collab ~13/16 (81%)
+- Updated cumulative accuracy: Arch 150/175 (86%) | Gov 157/197 (80%) | Perf 93/110 (85%) | Load 84/95 (88%) | Collab 92/105 (88%) | Total 576/682 (84%)
+- Domain mastery: Arch 103→101/117 (88%→86%) | Gov 94/108 (87%) | Perf 46→49/69 (67%→71%) | Load 50→56/84 (60%→67%) | Collab 50→53/84 (60%→63%)
+- Persistent confusion: replication syntax, IMPORT SHARE vs consumer "Get" action, STATEMENT_TIMEOUT vs QUEUED_TIMEOUT, QAS vs multi-cluster use cases, micro-partition pruning vs clustering depth metric
+- XP: 11070→**12098** | Questions: 820→**870** | Coverage: 343/462 (74.2%)→**353/462 (76.4%)**
+- Final Boss: still locked (need Perf 80%+, Load 80%+, Collab 80%+)
 
 ### External Practice — 2026-05-31 (50 questions, mixed domains)
 - Score: 45/50 (90%)
