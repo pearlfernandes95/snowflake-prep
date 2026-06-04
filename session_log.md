@@ -46,10 +46,10 @@ Both thresholds must be met to level up. Prevents XP grinding without breadth.
 
 | Stat | Value |
 |---|---|
-| Total XP | **12098** |
-| Level | **12 — Exam Candidate** 🎉 (LEVEL UP! Crossed 75% coverage + have 10000+ XP) |
-| Next level (13 — SnowPro Ready) | Need 82% coverage (have 76.4%) and 13000 XP (have 12098) |
-| Total questions answered | **870** |
+| Total XP | **12305** |
+| Level | **12 — Exam Candidate** (need 82% coverage for L13) |
+| Next level (13 — SnowPro Ready) | Need 82% coverage (have 76.4%) and 13000 XP (have 12305) |
+| Total questions answered | **880** |
 | All-time best streak | 22 |
 | Predicted exam-ready date | **TARGET REACHED 2026-05-30 ✅ — exam June 8 (on schedule)** |
 | Sub-concepts covered | **353 / 462 (76.4%)** |
@@ -418,6 +418,7 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 - 5.3: Failover operation promotes a secondary database replica to primary — allows writes on the replica during DR
 - 5.2: ACCOUNTADMIN has default privileges to create and manage Marketplace listings
 - 1.2: For infrequent batch jobs (e.g. 8 min/hour), optimal AUTO_SUSPEND = 60s (minimum) to avoid paying for idle time
+- 4.4: Snowpipe AUTO_INGEST uses S3→SQS event notifications for file-based ingestion; Snowpipe Streaming SDK pushes rows directly from applications — "files in S3" always means AUTO_INGEST [S-Jun03b Q10 follow-up]
 - 4.1: Internal stages (user @~, table @%table, named @stage) require no cloud provider credentials — fully Snowflake-managed [S-Jun03 Q40]
 - 4.2: FORCE = FALSE (default) — COPY INTO checks 64-day load history and skips previously loaded files to prevent duplicates [S-Jun03 Q46]
 - 5.5: UNDROP TABLE restores the most recently dropped table using Time Travel; works within the Data Retention Period [S-Jun03 Q38]
@@ -564,6 +565,17 @@ Tracks correct/total questions answered per domain. Earlier sessions logged over
 ---
 
 ## Sessions (delta log — most recent first)
+
+### S-Jun03b — Weak Spots 10 — 2026-06-03 (10 questions, Performance + Loading + Collaboration)
+- Score: 9/10 correct (90%)
+- XP delta: +207 XP | Best streak this session: 9
+- Sub-concepts: +1 added (4.4 Snowpipe AUTO_INGEST vs Snowpipe Streaming distinction), -0 removed
+- Added: 4.4: Snowpipe AUTO_INGEST = S3 files via SQS event notifications (file-based); Snowpipe Streaming SDK = row-level push from apps — distinct use cases
+- Wrong: Q10 (Snowpipe AUTO_INGEST vs Snowpipe Streaming — picked Streaming for S3 file scenario)
+- Per-domain accuracy this session: Perf 3/3 | Load 3/4 (Q10 ✗) | Collab 3/3
+- Updated cumulative accuracy: Load 87/99 (88%) | Total 585/692 (85%)
+- XP: 12098→**12305** | Questions: 870→**880**
+- Persistent confusion: Snowpipe AUTO_INGEST (files) vs Snowpipe Streaming SDK (rows from app) — "files in S3" = always AUTO_INGEST
 
 ### S-Jun03 — Weak Spots 50 — 2026-06-03 (50 questions, Performance + Loading + Collaboration)
 - Score: 41/50 correct (82%)
